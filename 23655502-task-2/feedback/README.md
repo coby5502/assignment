@@ -131,7 +131,7 @@ graph TD;
     D --> E[이름 클릭]
     E --> F[agify.io API 연동]
     F --> G[상세 정보 모달 표시]
-    B --> H[자동완성 힌트(overlay)]
+    B --> H[자동완성 힌트 overlay]
 ```
 
 **시스템 동작 흐름:**
