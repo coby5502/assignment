@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이름 검색 시스템</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <header class="main-header">
+        <h1>이름 검색 시스템</h1>
+        <p class="main-desc">이름을 입력하면 자동완성과 관련 결과를 확인할 수 있습니다.<br>대용량 데이터도 빠르게 검색할 수 있습니다.</p>
+    </header>
+    <section class="search-bar-section">
+        <div class="search-bar-wrap">
+            <div id="autocompleteOverlay" class="autocomplete-overlay"></div>
+            <input type="text" id="searchInput" placeholder="이름을 입력하세요..." autocomplete="off" />
+        </div>
+    </section>
+    <section class="results-section">
+        <div class="results-title">검색 결과</div>
+        <ul id="resultsList" class="results-list">
+            <li class="no-results">검색어를 입력해주세요</li>
+        </ul>
+        <nav class="pagination" id="pagination"></nav>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
