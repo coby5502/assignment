@@ -173,4 +173,4 @@ def main():
     process_gps_points(gps_points, ways, nodes, route_way_ids)
 
 if __name__ == "__main__":
-    main() 
+    main()
